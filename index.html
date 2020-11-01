@@ -1,0 +1,2233 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Szolón idővonal</title>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+  <link rel= "stylesheet" href="css/style.css">
+</head>
+<body>
+<main>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="top-breadcrumb">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html">Kezdőlap</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Értesítések</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="img" style="    background-image: linear-gradient(150deg, rgba(63, 174, 255, .3)15%, rgba(63, 174, 255, .3)70%, rgba(63, 174, 255, .3)94%), url(images/background.jpg);height: 350px;background-size: cover;"></div>
+        <div class="card social-prof">
+            <div class="card-body">
+                <div class="wrapper">
+                    <img src="images/solon.jpg" alt="" class="user-profile">
+                    <h3>Szolón</h3>
+                    <p>politikus, költő</p>
+                </div>
+                <div class="row ">
+                    <div class="col-lg-12">
+                        <ul class=" nav nav-tabs justify-content-center s-nav">
+                            <li><a class="active" href="#">Idővonal</a></li>
+                            <li><a href="#">Névjegy</a></li>
+                            <li><a href="#">Ismerősök</a></li>
+                            <li><a href="#">Fényképek</a></li>
+                            <li><a href="#">Videók</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="h5 text-blue">Szolón</div>
+                        <div class="h7 "><strong>Név :</strong> Szolón</div>
+                        <div class="h7"><strong>Névjegy :</strong> Törvényhozó, arkhón, bölcs, filozófus, hadvezér, költő, pénzügyi tanácsadó, műkritikus, stb.
+                        </div>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="h6 text-muted">Követők</div>
+                            <div class="h5">52342</div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="h6 text-muted">Követ</div>
+                            <div class="h5">6758</div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="h6 text-muted">Témák</div>
+                            <div class="h5">1340</div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Legújabb Fényképek</h3>
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class=""></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1" class=""></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2" class="active"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item">
+                                    <img src="images/portrait1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/portrait2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item active">
+                                    <img src="images/portrait3.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/logo.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 gedf-main">
+
+
+               
+                
+            
+
+
+                <!--- \\\\\\\Post-->
+                <div class="card social-timeline-card">
+                    <div class="card-header">
+                        <ul class="nav nav-tabs card-header-tabs" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="posts-tab" data-toggle="tab" href="#posts" role="tab" aria-controls="posts" aria-selected="true">Életesemények</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="images-tab" data-toggle="tab" role="tab" aria-controls="images" aria-selected="false" href="#images">Fotók</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-body">
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade active show" id="posts" role="tabpanel" aria-labelledby="posts-tab">
+                                <div class="form-group">
+                                    <label class="sr-only" for="message">post</label>
+                                    <textarea class="form-control" id="message" rows="3" placeholder="Mi jár a fejedben?"></textarea>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="images" role="tabpanel" aria-labelledby="images-tab">
+                                <div class="form-group">
+                                    <div class="custom-file">
+                                        <input type="file" class="custom-file-input" id="customFile">
+                                        <label class="custom-file-label" for="customFile">Kép feltöltése</label>
+                                    </div>
+                                </div>
+                                <div class="py-4"></div>
+                            </div>
+                        </div>
+                        <div class="btn-toolbar justify-content-between">
+                            <div class="btn-group">
+                                <button type="submit" class="btn btn-theme-primary">Megosztás</button>
+                            </div>
+                            <div class="btn-group">
+                                <button id="btnGroupDrop1" type="button" class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fa fa-globe"></i>
+                                </button>
+                                <div class="dropdown-menu " aria-labelledby="btnGroupDrop1">
+                                    <a class="dropdown-item" href="#"><i class="fa fa-globe"></i> Public</a>
+                                    <a class="dropdown-item" href="#"><i class="fa fa-users"></i> Friends</a>
+                                    <a class="dropdown-item" href="#"><i class="fa fa-user"></i> Just me</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Post /////-->
+                <!--- \\\\\\\Post-->
+                <div class="card social-timeline-card">
+                    <div class="card-header">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="mr-2">
+                                    <img class="rounded-circle" width="45" src="images/philombrotosz.jpg" alt="">
+                                </div>
+                                <div class="ml-2">
+                                    <div class="h5 m-0 text-blue">Philombrotosz</div>
+                                    <div class="h7 text-muted">Árész-domb</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dropdown">
+                                    <button class="btn btn-link dropdown-toggle" type="button" id="gedf-drop11" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-ellipsis-h"></i>
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="gedf-drop11">
+                                        <div class="h6 dropdown-header">Configuration</div>
+                                        <a class="dropdown-item" href="#">Save</a>
+                                        <a class="dropdown-item" href="#">Hide</a>
+                                        <a class="dropdown-item" href="#">Report</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i>46. Olümpiász</div>
+                        <a class="card-link" href="https://goo.gl/maps/7ehDrHYvJ2Log9CP7" target="_blank">
+                            <h5 class="card-title">Areioszpagosz</h5>
+                        </a>
+                        <p class="card-text">Tisztelt Szolón, mint a tavalyi év arkhónja, kérlek minél előbb tegyél rendet a törvénytelenségben, úgy tűnik, most minden felfordult és újabb leszámolások kezdődnek.</p>
+                        <img src="img/gallery/1a.jpg" alt="" class="img-fluid">
+
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="card-link"><i class="fa fa-gittip"></i> Tetszik</a>
+                        <a href="#" class="card-link"><i class="fa fa-comment"></i> Hozzászólás</a>
+                        <a href="#" class="card-link"><i class="fa fa-mail-forward"></i> Megosztás</a>
+                    </div>
+                </div>
+                <!-- Post /////-->
+                <!--- \\\\\\\Post-->
+                <div class="card social-timeline-card">
+                    <div class="card-header">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="mr-2">
+                                    <img class="rounded-circle" width="45" src="images/solon.jpg" alt="">
+                                </div>
+                                <div class="ml-2">
+                                    <div class="h5 m-0 text-blue">Szolón</div>
+                                    <div class="h7 text-muted">Exékesztidész fia, a Medontidák családjából</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dropdown">
+                                    <button class="btn btn-link dropdown-toggle" type="button" id="gedf-drop1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-ellipsis-h"></i>
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="gedf-drop1">
+                                        <div class="h6 dropdown-header">Configuration</div>
+                                        <a class="dropdown-item" href="#">Save</a>
+                                        <a class="dropdown-item" href="#">Hide</a>
+                                        <a class="dropdown-item" href="#">Report</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i> 46. Olümpiász</div>
+                        <a class="card-link" href="#">
+                            <h5 class="card-title"> Athén</h5>
+                        </a>
+                        <p class="card-text">
+                            Aj, Szolón nem mélyreszántó elme, nem bölcs férfiú! Isten annyi jót kinált, s ő nem kapott a kincs után. Hisz csak ülnék én a polcra, gyűjtenék busás vagyont! Csak lennék athéni zsarnok egy napig, habár legott bőrömet lerántanák s kiirtanák is írmagom! Kellemes hely az egyeduralom, csak nem lehet belőle kiszállni.
+                        </p>
+                        <div>
+                            <span class="badge badge-primary">#döntőbíró</span>
+                            <span class="badge badge-primary">#törvényhozó</span>
+                            <span class="badge badge-primary">#arkhón</span>
+                            <span class="badge badge-primary">#kiegyenlítő</span>
+                            <span class="badge badge-primary">#közügyek őre</span>
+                            <span class="badge badge-primary">#békéltető</span>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="card-link"><i class="fa fa-gittip"></i> Tetszik</a>
+                        <a href="#" class="card-link"><i class="fa fa-comment"></i> Hozzászólás</a>
+                        <a href="#" class="card-link"><i class="fa fa-mail-forward"></i> Megosztás</a>
+                    </div>
+                </div>
+
+
+
+                <!-- Post /////-->
+                <!--- \\\\\\\Post-->
+                <div class="card social-timeline-card">
+                    <div class="card-header">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="mr-2">
+                                    <img class="rounded-circle" width="45" src="images/aratosz.png" alt="">
+                                </div>
+                                <div class="ml-2">
+                                    <div class="h5 m-0 text-blue">Aratosz</div>
+                                    <div class="h7 text-muted">Földművelő</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dropdown">
+                                    <button class="btn btn-link dropdown-toggle" type="button" id="gedf-drop11" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-ellipsis-h"></i>
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="gedf-drop11">
+                                        <div class="h6 dropdown-header">Configuration</div>
+                                        <a class="dropdown-item" href="#">Save</a>
+                                        <a class="dropdown-item" href="#">Hide</a>
+                                        <a class="dropdown-item" href="#">Report</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i>46. Olümpiász</div>
+                        <a class="card-link" href="https://goo.gl/maps/4QPR9xT8WByHBHCg7" target="_blank">
+                            <h5 class="card-title">Marathón</h5>
+                        </a>
+                        <p class="card-text">Bölcs Szolón, itt az idő! Négyévi hatoddal tartozom a szomszéd birtokosomnak, nem tudom, mikor fogja behajtani, de ez így nem mehet tovább!  </p>
+                        <img src="img/gallery/1a.jpg" alt="" class="img-fluid">
+
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="card-link"><i class="fa fa-gittip"></i> Tetszik</a>
+                        <a href="#" class="card-link"><i class="fa fa-comment"></i> Hozzászólás</a>
+                        <a href="#" class="card-link"><i class="fa fa-mail-forward"></i> Megosztás</a>
+                    </div>
+                </div>
+
+                <!-- Post /////-->
+              <!-- Post /////-->
+                <!--- \\\\\\\Post-->
+                <div class="card social-timeline-card">
+                    <div class="card-header">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="mr-2">
+                                    <img class="rounded-circle" width="45" src="images/dexiosz.png" alt="">
+                                </div>
+                                <div class="ml-2">
+                                    <div class="h5 m-0 text-blue">Dexiosz</div>
+                                    <div class="h7 text-muted">Földműves</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dropdown">
+                                    <button class="btn btn-link dropdown-toggle" type="button" id="gedf-drop11" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-ellipsis-h"></i>
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="gedf-drop11">
+                                        <div class="h6 dropdown-header">Configuration</div>
+                                        <a class="dropdown-item" href="#">Save</a>
+                                        <a class="dropdown-item" href="#">Hide</a>
+                                        <a class="dropdown-item" href="#">Report</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i>46. Olümpiász</div>
+                        <a class="card-link" href="https://goo.gl/maps/HpTcip2dB34iyiW4A" target="_blank">
+                            <h5 class="card-title">Brauron</h5>
+                        </a>
+                        <p class="card-text">Bölcs Szolón, múlt hónapban a kisebbik fiamat kellett rabszolgának adnom, hogy az adósságom egy részét megtérítsem! Segíts rajtam! </p>
+                        <img src="img/gallery/1a.jpg" alt="" class="img-fluid">
+
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="card-link"><i class="fa fa-gittip"></i> Tetszik</a>
+                        <a href="#" class="card-link"><i class="fa fa-comment"></i> Hozzászólás</a>
+                        <a href="#" class="card-link"><i class="fa fa-mail-forward"></i> Megosztás</a>
+                    </div>
+                </div>
+              
+                <!-- Post /////-->
+                <!--- \\\\\\\Post-->
+                <div class="card social-timeline-card">
+                    <div class="card-header">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="mr-2">
+                                    <img class="rounded-circle" width="45" src="images/solon.jpg" alt="">
+                                </div>
+                                <div class="ml-2">
+                                    <div class="h5 m-0 text-blue">Szolón</div>
+                                    <div class="h7 text-muted">Exékesztidész fia, a Medontidák családjából</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dropdown">
+                                    <button class="btn btn-link dropdown-toggle" type="button" id="gedf-drop1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-ellipsis-h"></i>
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="gedf-drop1">
+                                        <div class="h6 dropdown-header">Configuration</div>
+                                        <a class="dropdown-item" href="#">Save</a>
+                                        <a class="dropdown-item" href="#">Hide</a>
+                                        <a class="dropdown-item" href="#">Report</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i> feltöltött egy fotót.</div>
+                        <a class="card-link" href="https://hu.wikipedia.org/wiki/Arkh%C3%B3n" target="_blank">
+                            <h5 class="card-title"> Új munkahely: arkhóni hivatal</h5>
+                        </a>
+                        <img src="images/archon.jpg" alt="" class="img-fluid">
+
+                        <p class="card-text">
+                            
+                        </p>
+                        <div>
+                            <span class="badge badge-primary">#döntőbíró</span>
+                            <span class="badge badge-primary">#törvényhozó</span>
+                            <span class="badge badge-primary">#arkhón</span>
+                            <span class="badge badge-primary">#kiegyenlítő</span>
+                            <span class="badge badge-primary">#közügyek őre</span>
+                            <span class="badge badge-primary">#békéltető</span>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="card-link"><i class="fa fa-gittip"></i> Tetszik</a>
+                        <a href="#" class="card-link"><i class="fa fa-comment"></i> Hozzászólás</a>
+                        <a href="#" class="card-link"><i class="fa fa-mail-forward"></i> Megosztás</a>
+                    </div>
+                </div>
+              
+                  <!--- \\\\\\\Post-->
+                  <div class="card social-timeline-card">
+                    <div class="card-header">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="mr-2">
+                                    <img class="rounded-circle" width="45" src="images/szinisz.png" alt="">
+                                </div>
+                                <div class="ml-2">
+                                    <div class="h5 m-0 text-blue">Szinisz</div>
+                                    <div class="h7 text-muted">Napszámos</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dropdown">
+                                    <button class="btn btn-link dropdown-toggle" type="button" id="gedf-drop11" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-ellipsis-h"></i>
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="gedf-drop11">
+                                        <div class="h6 dropdown-header">Configuration</div>
+                                        <a class="dropdown-item" href="#">Save</a>
+                                        <a class="dropdown-item" href="#">Hide</a>
+                                        <a class="dropdown-item" href="#">Report</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i>46. Olümpiász</div>
+                        <a class="card-link" href="https://goo.gl/maps/EThYrHxxDoAZaeVd8" target="_blank">
+                            <h5 class="card-title">Korinthosz</h5>
+                        </a>
+                        <p class="card-text">Szolón arkhón, 2 éve élek külföldön, mert a marathóni szomszédom hatalmas adósságot követel rajtam, nem merek hazamenni! Segíts!!!   </p>
+                        <img src="img/gallery/1a.jpg" alt="" class="img-fluid">
+
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="card-link"><i class="fa fa-gittip"></i> Tetszik</a>
+                        <a href="#" class="card-link"><i class="fa fa-comment"></i> Hozzászólás</a>
+                        <a href="#" class="card-link"><i class="fa fa-mail-forward"></i> Megosztás</a>
+                    </div>
+                </div>
+
+                   <!--- \\\\\\\Post-->
+                   <div class="card social-timeline-card">
+                    <div class="card-header">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="mr-2">
+                                    <img class="rounded-circle" width="45" src="images/peiszisztratosz.png" alt="">
+                                </div>
+                                <div class="ml-2">
+                                    <div class="h5 m-0 text-blue">Peiszisztratosz (egyike a legjobbaknak)</div>
+                                    <div class="h7 text-muted">Földbirtokos</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dropdown">
+                                    <button class="btn btn-link dropdown-toggle" type="button" id="gedf-drop11" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-ellipsis-h"></i>
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="gedf-drop11">
+                                        <div class="h6 dropdown-header">Configuration</div>
+                                        <a class="dropdown-item" href="#">Save</a>
+                                        <a class="dropdown-item" href="#">Hide</a>
+                                        <a class="dropdown-item" href="#">Report</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i>46. Olümpiász</div>
+                        <a class="card-link" href="https://goo.gl/maps/HpTcip2dB34iyiW4A" target="_blank">
+                            <h5 class="card-title">Brauron</h5>
+                        </a>
+                        <p class="card-text">Ez igen, kedves rokon! Ahhoz képest, hogy vagyonod nem éri el a legkiválóbb családokét, máris ilyen rangos tisztséget kaptál. Azért remélem, a barátság megmarad, hiszen együtt harcoltunk Megaránál! </p>
+                        <p class="card-text">Peiszisztratosz megosztott egy hivatkozást.</p>
+                        <img src="images/metropolisz.png" alt="" class="img-fluid">
+
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="card-link"><i class="fa fa-gittip"></i> Tetszik</a>
+                        <a href="#" class="card-link"><i class="fa fa-comment"></i> Hozzászólás</a>
+                        <a href="#" class="card-link"><i class="fa fa-mail-forward"></i> Megosztás</a>
+                    </div>
+                </div>
+              
+<!--- \\\\\\\Post-->
+<div class="card social-timeline-card">
+    <div class="card-header">
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="mr-2">
+                    <img class="rounded-circle" width="45" src="images/solon.jpg" alt="">
+                </div>
+                <div class="ml-2">
+                    <div class="h5 m-0 text-blue">Szolón</div>
+                    <div class="h7 text-muted">Exékesztidész fia, a Medontidák családjából</div>
+                </div>
+            </div>
+            <div>
+                <div class="dropdown">
+                    <button class="btn btn-link dropdown-toggle" type="button" id="gedf-drop1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-ellipsis-h"></i>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="gedf-drop1">
+                        <div class="h6 dropdown-header">Configuration</div>
+                        <a class="dropdown-item" href="#">Save</a>
+                        <a class="dropdown-item" href="#">Hide</a>
+                        <a class="dropdown-item" href="#">Report</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i> 46. Olümpiász</div>
+        <a class="card-link" href="https://hu.wikipedia.org/wiki/Arkh%C3%B3n" target="_blank">
+            <h5 class="card-title"> Arkhóni hivatal</h5>
+        </a>
+        <p class="card-text">
+            (Egyformán vagyonos,) ki ezüsttel, tenger arannyal
+gazdag, s az, ki kövér búzamezők uraként
+sok lovat, öszvért tart - de az is, ki csak étel-itallal
+töltekezik, s kinek ép teste virul, s gyönyörét
+zsenge fiúban vagy lányban leli fölcseperedve;
+érett korra biz ez mily nagyon élvezetes!
+        </p>
+        <img src="images.jpg" alt="" class="img-fluid">
+        <div>
+            <span class="badge badge-primary">#döntőbíró</span>
+            <span class="badge badge-primary">#törvényhozó</span>
+            <span class="badge badge-primary">#arkhón</span>
+            <span class="badge badge-primary">#kiegyenlítő</span>
+            <span class="badge badge-primary">#közügyek őre</span>
+            <span class="badge badge-primary">#békéltető</span>
+        </div>
+    </div>
+    <div class="card-footer">
+        <a href="#" class="card-link"><i class="fa fa-gittip"></i> Tetszik</a>
+        <a href="#" class="card-link"><i class="fa fa-comment"></i> Hozzászólás</a>
+        <a href="#" class="card-link"><i class="fa fa-mail-forward"></i> Megosztás</a>
+    </div>
+</div>
+
+                <!--- \\\\\\\Post-->
+                <div class="card social-timeline-card">
+                    <div class="card-header">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="mr-2">
+                                    <img class="rounded-circle" width="45" src="images/aratosz.png" alt="">
+                                </div>
+                                <div class="ml-2">
+                                    <div class="h5 m-0 text-blue">Aratosz</div>
+                                    <div class="h7 text-muted">Földművelő</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dropdown">
+                                    <button class="btn btn-link dropdown-toggle" type="button" id="gedf-drop11" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-ellipsis-h"></i>
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="gedf-drop11">
+                                        <div class="h6 dropdown-header">Configuration</div>
+                                        <a class="dropdown-item" href="#">Save</a>
+                                        <a class="dropdown-item" href="#">Hide</a>
+                                        <a class="dropdown-item" href="#">Report</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i>47. Olümpiász</div>
+                        <a class="card-link" href="https://goo.gl/maps/RSVRNF4Ys6wiYJve9" target="_blank">
+                            <h5 class="card-title">Meghívót küldött egy új eseményről</h5>
+                        </a>
+                        <p class="card-text">AGORA:  Hekatombaion hónap 6-án békés fáklyás felvonulás és tiltakozás az adósrabszolgaság ellen. </p>
+                        <img src="images/agora.jpg" alt="" class="img-fluid">
+
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="card-link"><i class="fa fa-gittip"></i> Tetszik</a>
+                        <a href="#" class="card-link"><i class="fa fa-comment"></i> Hozzászólás</a>
+                        <a href="#" class="card-link"><i class="fa fa-mail-forward"></i> Megosztás</a>
+                    </div>
+                </div>
+
+                <!--- \\\\\\\Post-->
+<div class="card social-timeline-card">
+    <div class="card-header">
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="mr-2">
+                    <img class="rounded-circle" width="45" src="images/solon.jpg" alt="">
+                </div>
+                <div class="ml-2">
+                    <div class="h5 m-0 text-blue">Szolón</div>
+                    <div class="h7 text-muted">Exékesztidész fia, a Medontidák családjából</div>
+                </div>
+            </div>
+            <div>
+                <div class="dropdown">
+                    <button class="btn btn-link dropdown-toggle" type="button" id="gedf-drop1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-ellipsis-h"></i>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="gedf-drop1">
+                        <div class="h6 dropdown-header">Configuration</div>
+                        <a class="dropdown-item" href="#">Save</a>
+                        <a class="dropdown-item" href="#">Hide</a>
+                        <a class="dropdown-item" href="#">Report</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i>Szolón megosztott egy költeményt Aratosz üzenőfalán.</div>
+        <a class="card-link" href="https://hu.wikipedia.org/wiki/Arkh%C3%B3n" target="_blank">
+            <h5 class="card-title"> Költeményeim</h5>
+        </a>
+        <p class="card-text">
+            "Sok gaz gazdag, amíg sanyarognak a legderekabbak;<br>
+            el ne cseréljük azért kincseikért az erényt!<br>
+            Mert maradandó ez mindenkor, míg a világon<br>
+            kézről kézre tovább perdül örökkön a pénz."<br>
+        </p>
+        <img src="images.jpg" alt="" class="img-fluid">
+        <div>
+            <span class="badge badge-primary">#döntőbíró</span>
+            <span class="badge badge-primary">#törvényhozó</span>
+            <span class="badge badge-primary">#arkhón</span>
+            <span class="badge badge-primary">#kiegyenlítő</span>
+            <span class="badge badge-primary">#közügyek őre</span>
+            <span class="badge badge-primary">#békéltető</span>
+        </div>
+    </div>
+    <div class="card-footer">
+        <a href="#" class="card-link"><i class="fa fa-gittip"></i> Tetszik</a>
+        <a href="#" class="card-link"><i class="fa fa-comment"></i> Hozzászólás</a>
+        <a href="#" class="card-link"><i class="fa fa-mail-forward"></i> Megosztás</a>
+    </div>
+</div>
+
+
+                <!--- \\\\\\\Post-->
+<div class="card social-timeline-card">
+    <div class="card-header">
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="mr-2">
+                    <img class="rounded-circle" width="45" src="images/solon.jpg" alt="">
+                </div>
+                <div class="ml-2">
+                    <div class="h5 m-0 text-blue">Szolón</div>
+                    <div class="h7 text-muted">Exékesztidész fia, a Medontidák családjából</div>
+                </div>
+            </div>
+            <div>
+                <div class="dropdown">
+                    <button class="btn btn-link dropdown-toggle" type="button" id="gedf-drop1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-ellipsis-h"></i>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="gedf-drop1">
+                        <div class="h6 dropdown-header">Configuration</div>
+                        <a class="dropdown-item" href="#">Save</a>
+                        <a class="dropdown-item" href="#">Hide</a>
+                        <a class="dropdown-item" href="#">Report</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i>Szolón megosztott egy hivatkozást.</div>
+        <a class="card-link" href="https://regi.tankonyvtar.hu/hu/tartalom/historia/93-07/ch04.html" target="_blank">
+            <h5 class="card-title"> Arkhóni hivatal</h5>
+        </a>
+        <p class="card-text">
+        </p>
+        <img src="images/kozlony1.png" alt="" class="img-fluid">
+        <div>
+            <span class="badge badge-primary">#döntőbíró</span>
+            <span class="badge badge-primary">#törvényhozó</span>
+            <span class="badge badge-primary">#arkhón</span>
+            <span class="badge badge-primary">#kiegyenlítő</span>
+            <span class="badge badge-primary">#közügyek őre</span>
+            <span class="badge badge-primary">#békéltető</span>
+        </div>
+    </div>
+    <div class="card-footer">
+        <a href="#" class="card-link"><i class="fa fa-gittip"></i> Tetszik</a>
+        <a href="#" class="card-link"><i class="fa fa-comment"></i> Hozzászólás</a>
+        <a href="#" class="card-link"><i class="fa fa-mail-forward"></i> Megosztás</a>
+    </div>
+</div>
+
+
+                 <!--- \\\\\\\Post-->
+                 <div class="card social-timeline-card">
+                    <div class="card-header">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="mr-2">
+                                    <img class="rounded-circle" width="45" src="images/peiszisztratosz.png" alt="">
+                                </div>
+                                <div class="ml-2">
+                                    <div class="h5 m-0 text-blue">Peiszisztratosz (egyike a legjobbaknak)</div>
+                                    <div class="h7 text-muted">Földbirtokos</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dropdown">
+                                    <button class="btn btn-link dropdown-toggle" type="button" id="gedf-drop11" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-ellipsis-h"></i>
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="gedf-drop11">
+                                        <div class="h6 dropdown-header">Configuration</div>
+                                        <a class="dropdown-item" href="#">Save</a>
+                                        <a class="dropdown-item" href="#">Hide</a>
+                                        <a class="dropdown-item" href="#">Report</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i>47. Olümpiász</div>
+                        <a class="card-link" href="https://goo.gl/maps/HpTcip2dB34iyiW4A" target="_blank">
+                            <h5 class="card-title">Brauron</h5>
+                        </a>
+                        <p class="card-text">Kedves törvénytevő rokon, nem meglepetés számomra ez a határozott fellépés, de most sok ellenséget szereztél magadnak az új törvényekkel. Félő, hogy a démosz alja majd még többet követel ezek után. Már most azt beszélik, igazából mégis a gazdagoknak kedveztél és nem segítettél a nép nyomorán.</p>
+                        <p class="card-text">
+                        </p>
+                        <img src="images/" alt="" class="img-fluid">
+
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="card-link"><i class="fa fa-gittip"></i> Tetszik</a>
+                        <a href="#" class="card-link"><i class="fa fa-comment"></i> Hozzászólás</a>
+                        <a href="#" class="card-link"><i class="fa fa-mail-forward"></i> Megosztás</a>
+                    </div>
+                </div>
+                
+                  <!--- \\\\\\\Post-->
+<div class="card social-timeline-card">
+    <div class="card-header">
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="mr-2">
+                    <img class="rounded-circle" width="45" src="images/solon.jpg" alt="">
+                </div>
+                <div class="ml-2">
+                    <div class="h5 m-0 text-blue">Szolón</div>
+                    <div class="h7 text-muted">Exékesztidész fia, a Medontidák családjából</div>
+                </div>
+            </div>
+            <div>
+                <div class="dropdown">
+                    <button class="btn btn-link dropdown-toggle" type="button" id="gedf-drop1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-ellipsis-h"></i>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="gedf-drop1">
+                        <div class="h6 dropdown-header">Configuration</div>
+                        <a class="dropdown-item" href="#">Save</a>
+                        <a class="dropdown-item" href="#">Hide</a>
+                        <a class="dropdown-item" href="#">Report</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i>47. Olümpiász</div>
+        <a class="card-link" href="https://regi.tankonyvtar.hu/hu/tartalom/historia/93-07/ch02.html" target="_blank">
+            <h5 class="card-title"> Alkotmánybírói portál</h5>
+        </a>
+        <p class="card-text">Abból, miért a nép szavamra összegyűlt,<br>
+            mit adtam én fel, míg minden célhoz nem ért?<br>
+            Tanúm legyen, ha majd itélni fogsz, Idő,<br>
+            az istenek nagy és kegyelmes anyja, Gé,<br>
+            a barna föld, amelyből sok jelzőkövet<br>
+            kitéptem, itt is, ott is, mely leverve volt:<br>
+            így lett, mi addig szolga volt, a Föld szabad.<br>
+            S az istentől rendelt hazában is sokat<br>
+            vezettem vissza, kit rabként hurcoltak el,<br>
+            ezt jogtalan, más régi törvények szerint<br>
+            adósságáért volt földönfutó, míg<br>
+            Athén nyelvén többé beszélni sem tudott.<br>
+            Voltak, kik itthon szenvedtek rút szolgaság<br>
+            alatt, szeszélyes gazdájuk parancsait<br>
+            rettegve: én szabaddá tettem őket is.<br>
+        </p>
+        <img src="images/laws.png" alt="" class="img-fluid">
+        <div>
+            <span class="badge badge-primary">#döntőbíró</span>
+            <span class="badge badge-primary">#törvényhozó</span>
+            <span class="badge badge-primary">#arkhón</span>
+            <span class="badge badge-primary">#kiegyenlítő</span>
+            <span class="badge badge-primary">#közügyek őre</span>
+            <span class="badge badge-primary">#békéltető</span>
+        </div>
+    </div>
+    <div class="card-footer">
+        <a href="#" class="card-link"><i class="fa fa-gittip"></i> Tetszik</a>
+        <a href="#" class="card-link"><i class="fa fa-comment"></i> Hozzászólás</a>
+        <a href="#" class="card-link"><i class="fa fa-mail-forward"></i> Megosztás</a>
+    </div>
+</div>
+
+
+                <!--- \\\\\\\Post-->
+<div class="card social-timeline-card">
+    <div class="card-header">
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="mr-2">
+                    <img class="rounded-circle" width="45" src="images/solon.jpg" alt="">
+                </div>
+                <div class="ml-2">
+                    <div class="h5 m-0 text-blue">Szolón</div>
+                    <div class="h7 text-muted">Exékesztidész fia, a Medontidák családjából</div>
+                </div>
+            </div>
+            <div>
+                <div class="dropdown">
+                    <button class="btn btn-link dropdown-toggle" type="button" id="gedf-drop1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-ellipsis-h"></i>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="gedf-drop1">
+                        <div class="h6 dropdown-header">Configuration</div>
+                        <a class="dropdown-item" href="#">Save</a>
+                        <a class="dropdown-item" href="#">Hide</a>
+                        <a class="dropdown-item" href="#">Report</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i>Szolón megosztott egy hivatkozást.</div>
+        <a class="card-link" href="https://regi.tankonyvtar.hu/hu/tartalom/historia/93-07/ch02.html" target="_blank">
+            <h5 class="card-title"> Alkotmánybírói portál</h5>
+        </a>
+        <p class="card-text">
+        </p>
+        <img src="images/kozlony2.png" alt="" class="img-fluid">
+        <div>
+            <span class="badge badge-primary">#döntőbíró</span>
+            <span class="badge badge-primary">#törvényhozó</span>
+            <span class="badge badge-primary">#arkhón</span>
+            <span class="badge badge-primary">#kiegyenlítő</span>
+            <span class="badge badge-primary">#közügyek őre</span>
+            <span class="badge badge-primary">#békéltető</span>
+        </div>
+    </div>
+    <div class="card-footer">
+        <a href="#" class="card-link"><i class="fa fa-gittip"></i> Tetszik</a>
+        <a href="#" class="card-link"><i class="fa fa-comment"></i> Hozzászólás</a>
+        <a href="#" class="card-link"><i class="fa fa-mail-forward"></i> Megosztás</a>
+    </div>
+</div>
+
+                <!--- \\\\\\\Post-->
+                <div class="card social-timeline-card">
+                    <div class="card-header">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="mr-2">
+                                    <img class="rounded-circle" width="45" src="images/arisztokratosz.jpg" alt="">
+                                </div>
+                                <div class="ml-2">
+                                    <div class="h5 m-0 text-blue">Arisztokratosz (Héraklész leszármazottja)</div>
+                                    <div class="h7 text-muted">Vezető tisztségviselő</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dropdown">
+                                    <button class="btn btn-link dropdown-toggle" type="button" id="gedf-drop11" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-ellipsis-h"></i>
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="gedf-drop11">
+                                        <div class="h6 dropdown-header">Configuration</div>
+                                        <a class="dropdown-item" href="#">Save</a>
+                                        <a class="dropdown-item" href="#">Hide</a>
+                                        <a class="dropdown-item" href="#">Report</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i>kedvelte Szolón hozzászólását.</div>
+                        <a class="card-link" href="https://goo.gl/maps/Y2sFg1mMVMzx7aLVA" target="_blank">
+                            <h5 class="card-title">Laurion</h5>
+                        </a>
+                        <p class="card-text">Kiváló és hatásos rendelkezés, törvénytevő uram! Hol kell kitölteni a vagyoni bevallást? Most vettem négy új lovat és be kell őket szoktatnom, de amint ráérek, szeretném kipróbálni az új rendszert.</p>
+                        <p class="card-text">
+                        </p>
+                        <img src="images/horsemen.jpg" alt="" class="img-fluid">
+
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="card-link"><i class="fa fa-gittip"></i> Tetszik</a>
+                        <a href="#" class="card-link"><i class="fa fa-comment"></i> Hozzászólás</a>
+                        <a href="#" class="card-link"><i class="fa fa-mail-forward"></i> Megosztás</a>
+                    </div>
+                </div>
+
+
+                <!--- \\\\\\\Post-->
+                <div class="card social-timeline-card">
+                    <div class="card-header">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="mr-2">
+                                    <img class="rounded-circle" width="45" src="images/szinisz.png" alt="">
+                                </div>
+                                <div class="ml-2">
+                                    <div class="h5 m-0 text-blue">Szinisz</div>
+                                    <div class="h7 text-muted">Földműves</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dropdown">
+                                    <button class="btn btn-link dropdown-toggle" type="button" id="gedf-drop11" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-ellipsis-h"></i>
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="gedf-drop11">
+                                        <div class="h6 dropdown-header">Configuration</div>
+                                        <a class="dropdown-item" href="#">Save</a>
+                                        <a class="dropdown-item" href="#">Hide</a>
+                                        <a class="dropdown-item" href="#">Report</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i>47. Olümpiász</div>
+                        <a class="card-link" href="https://goo.gl/maps/DWxkPz42Lhtp7cdv5" target="_blank">
+                            <h5 class="card-title">Dekeleia</h5>
+                        </a>
+                        <p class="card-text">Ha meg tudom venni a bőrpajzsot, a mellvértet, a lándzsát és a kardokat, meg a gerelyt, akkor bekerülhetek a II. osztályba? Privátba írj vissza Szolón!</p>
+                        <p class="card-text">
+                        </p>
+
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="card-link"><i class="fa fa-gittip"></i> Tetszik</a>
+                        <a href="#" class="card-link"><i class="fa fa-comment"></i> Hozzászólás</a>
+                        <a href="#" class="card-link"><i class="fa fa-mail-forward"></i> Megosztás</a>
+                    </div>
+                </div>
+
+
+                 <!--- \\\\\\\Post-->
+<div class="card social-timeline-card">
+    <div class="card-header">
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="mr-2">
+                    <img class="rounded-circle" width="45" src="images/solon.jpg" alt="">
+                </div>
+                <div class="ml-2">
+                    <div class="h5 m-0 text-blue">Szolón</div>
+                    <div class="h7 text-muted">Exékesztidész fia, a Medontidák családjából</div>
+                </div>
+            </div>
+            <div>
+                <div class="dropdown">
+                    <button class="btn btn-link dropdown-toggle" type="button" id="gedf-drop1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-ellipsis-h"></i>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="gedf-drop1">
+                        <div class="h6 dropdown-header">Configuration</div>
+                        <a class="dropdown-item" href="#">Save</a>
+                        <a class="dropdown-item" href="#">Hide</a>
+                        <a class="dropdown-item" href="#">Report</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i>Szolón megosztott egy hivatkozást.</div>
+        <a class="card-link" href="https://regi.tankonyvtar.hu/hu/tartalom/historia/93-07/ch02.html" target="_blank">
+            <h5 class="card-title"> Alkotmánybírói portál</h5>
+        </a>
+        <p class="card-text">
+        </p>
+        <img src="images/kozlony3.png" alt="" class="img-fluid">
+        <div>
+            <span class="badge badge-primary">#döntőbíró</span>
+            <span class="badge badge-primary">#törvényhozó</span>
+            <span class="badge badge-primary">#arkhón</span>
+            <span class="badge badge-primary">#kiegyenlítő</span>
+            <span class="badge badge-primary">#közügyek őre</span>
+            <span class="badge badge-primary">#békéltető</span>
+        </div>
+    </div>
+    <div class="card-footer">
+        <a href="#" class="card-link"><i class="fa fa-gittip"></i> Tetszik</a>
+        <a href="#" class="card-link"><i class="fa fa-comment"></i> Hozzászólás</a>
+        <a href="#" class="card-link"><i class="fa fa-mail-forward"></i> Megosztás</a>
+    </div>
+</div>
+
+
+                <!--- \\\\\\\Post-->
+                <div class="card social-timeline-card">
+                    <div class="card-header">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="mr-2">
+                                    <img class="rounded-circle" width="45" src="images/arisztokratosz.jpg" alt="">
+                                </div>
+                                <div class="ml-2">
+                                    <div class="h5 m-0 text-blue">Arisztokratosz (Héraklész leszármazottja)</div>
+                                    <div class="h7 text-muted">Vezető tisztségviselő</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dropdown">
+                                    <button class="btn btn-link dropdown-toggle" type="button" id="gedf-drop11" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-ellipsis-h"></i>
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="gedf-drop11">
+                                        <div class="h6 dropdown-header">Configuration</div>
+                                        <a class="dropdown-item" href="#">Save</a>
+                                        <a class="dropdown-item" href="#">Hide</a>
+                                        <a class="dropdown-item" href="#">Report</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i>kedvelte Szolón hozzászólását.</div>
+                        <a class="card-link" href="https://goo.gl/maps/Y2sFg1mMVMzx7aLVA" target="_blank">
+                            <h5 class="card-title">Laurion</h5>
+                        </a>
+                        <p class="card-text">Újabb zseniális  rendelkezés, törvénytevő uram! Hamarosan összes birtokomon átállunk az ipari mennyiségű olajbogyó termelésre.</p>
+                        <p class="card-text">
+                        </p>
+
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="card-link"><i class="fa fa-gittip"></i> Tetszik</a>
+                        <a href="#" class="card-link"><i class="fa fa-comment"></i> Hozzászólás</a>
+                        <a href="#" class="card-link"><i class="fa fa-mail-forward"></i> Megosztás</a>
+                    </div>
+                </div>
+
+
+                <!--- \\\\\\\Post-->
+                <div class="card social-timeline-card">
+                    <div class="card-header">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="mr-2">
+                                    <img class="rounded-circle" width="45" src="images/peiszisztratosz.png" alt="">
+                                </div>
+                                <div class="ml-2">
+                                    <div class="h5 m-0 text-blue">Peiszisztratosz (egyike a legjobbaknak)</div>
+                                    <div class="h7 text-muted">Földbirtokos</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dropdown">
+                                    <button class="btn btn-link dropdown-toggle" type="button" id="gedf-drop11" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-ellipsis-h"></i>
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="gedf-drop11">
+                                        <div class="h6 dropdown-header">Configuration</div>
+                                        <a class="dropdown-item" href="#">Save</a>
+                                        <a class="dropdown-item" href="#">Hide</a>
+                                        <a class="dropdown-item" href="#">Report</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i>47. Olümpiász</div>
+                        <a class="card-link" href="https://goo.gl/maps/QJBsz2o9cvnYQjMx7" target="_blank">
+                            <h5 class="card-title">Brauron</h5>
+                        </a>
+                        <p class="card-text">Egyesek csak a saját további meggazdagodásukra gondolnak, amikor a nép problémái nem oldódtak meg. Nem tartom bölcs dolognak a feszültség további fokozását.</p>
+                        <p class="card-text">
+                        </p>
+
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="card-link"><i class="fa fa-gittip"></i> Tetszik</a>
+                        <a href="#" class="card-link"><i class="fa fa-comment"></i> Hozzászólás</a>
+                        <a href="#" class="card-link"><i class="fa fa-mail-forward"></i> Megosztás</a>
+                    </div>
+                </div>
+
+
+
+
+                <!--- \\\\\\\Post-->
+                <div class="card social-timeline-card">
+                    <div class="card-header">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="mr-2">
+                                    <img class="rounded-circle" width="45" src="images/peiszisztratosz.png" alt="">
+                                </div>
+                                <div class="ml-2">
+                                    <div class="h5 m-0 text-blue">Peiszisztratosz (egyike a legjobbaknak)</div>
+                                    <div class="h7 text-muted">Földbirtokos</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dropdown">
+                                    <button class="btn btn-link dropdown-toggle" type="button" id="gedf-drop11" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-ellipsis-h"></i>
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="gedf-drop11">
+                                        <div class="h6 dropdown-header">Configuration</div>
+                                        <a class="dropdown-item" href="#">Save</a>
+                                        <a class="dropdown-item" href="#">Hide</a>
+                                        <a class="dropdown-item" href="#">Report</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i>48. Olümpiász</div>
+                        <a class="card-link" href="https://goo.gl/maps/kowLPt5rCTWwiKh97" target="_blank">
+                            <h5 class="card-title">Brauron</h5>
+                        </a>
+                        <p class="card-text">Peiszisztratosz meghívott egy új eseményre.</p>
+                         <img src="images/fig.png" alt="" class="img-fluid">                       
+                        <p class="card-text"><strong>SZEDD MAGAD AKCIÓ</strong> <br>
+                            <strong> Helyszín: Peiszisztratida birtok, Athéntől 37 sztadion távolságra a Kerameikosz felé. <br>Egész napos ingyen fogyasztás és hűsítő borok.<br></strong>
+                        </p>
+                        
+
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="card-link"><i class="fa fa-gittip"></i> Tetszik</a>
+                        <a href="#" class="card-link"><i class="fa fa-comment"></i> Hozzászólás</a>
+                        <a href="#" class="card-link"><i class="fa fa-mail-forward"></i> Megosztás</a>
+                    </div>
+                </div>
+
+
+                               <!--- \\\\\\\Post-->
+                               <div class="card social-timeline-card">
+                                <div class="card-header">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="mr-2">
+                                                <img class="rounded-circle" width="45" src="images/solon.jpg" alt="">
+                                            </div>
+                                            <div class="ml-2">
+                                                <div class="h5 m-0 text-blue">Szolón</div>
+                                                <div class="h7 text-muted">Exékesztidész fia, a Medontidák családjából
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="dropdown">
+                                                <button class="btn btn-link dropdown-toggle" type="button" id="gedf-drop11" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <i class="fa fa-ellipsis-h"></i>
+                                                </button>
+                                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="gedf-drop11">
+                                                    <div class="h6 dropdown-header">Configuration</div>
+                                                    <a class="dropdown-item" href="#">Save</a>
+                                                    <a class="dropdown-item" href="#">Hide</a>
+                                                    <a class="dropdown-item" href="#">Report</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i>48. Olümpiász</div>
+                                    <a class="card-link" href="https://goo.gl/maps/QJBsz2o9cvnYQjMx7" target="_blank">
+                                        <h5 class="card-title"></h5>
+                                    </a>
+                                    <p class="card-text">Mindenitek szeme csak furfangos férfi beszédén s nyelvén függ; közösen nyargaltok a róka csapásán: bennetek, íme, bizony balgatag elme lakik.</p>
+                                    <p class="card-text">
+                                    </p>
+            
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="card-link"><i class="fa fa-gittip"></i> Tetszik</a>
+                                    <a href="#" class="card-link"><i class="fa fa-comment"></i> Hozzászólás</a>
+                                    <a href="#" class="card-link"><i class="fa fa-mail-forward"></i> Megosztás</a>
+                                </div>
+                            </div>
+
+
+                             <!--- \\\\\\\Post-->
+                             <div class="card social-timeline-card">
+                                <div class="card-header">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="mr-2">
+                                                <img class="rounded-circle" width="45" src="images/solon.jpg" alt="">
+                                            </div>
+                                            <div class="ml-2">
+                                                <div class="h5 m-0 text-blue">Szolón</div>
+                                                <div class="h7 text-muted">Exékesztidész fia, a Medontidák családjából
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="dropdown">
+                                                <button class="btn btn-link dropdown-toggle" type="button" id="gedf-drop11" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <i class="fa fa-ellipsis-h"></i>
+                                                </button>
+                                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="gedf-drop11">
+                                                    <div class="h6 dropdown-header">Configuration</div>
+                                                    <a class="dropdown-item" href="#">Save</a>
+                                                    <a class="dropdown-item" href="#">Hide</a>
+                                                    <a class="dropdown-item" href="#">Report</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i>52. Olümpiász</div>
+                                    <a class="card-link" href="https://goo.gl/maps/akywACMrLJubqgdK8" target="_blank">
+                                        <h5 class="card-title">itt: Ciprus</h5>
+                                    </a>
+                                    <p class="card-text">S mert bolondul vélekedtek, megdühödtek most reám, s görbe szemmel méregetnek mint közellenségüket.</p>
+                                    <img src="images/cyprus.jpg" alt="" class="img-fluid"> 
+                                    <p class="card-text">
+                                    </p>
+                                    <p class="card-text">Megérdemelt pihenés...
+                                    </p>
+            
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="card-link"><i class="fa fa-gittip"></i> Tetszik</a>
+                                    <a href="#" class="card-link"><i class="fa fa-comment"></i> Hozzászólás</a>
+                                    <a href="#" class="card-link"><i class="fa fa-mail-forward"></i> Megosztás</a>
+                                </div>
+                            </div>
+
+
+
+                            <!--- \\\\\\\Post-->
+                <div class="card social-timeline-card">
+                    <div class="card-header">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="mr-2">
+                                    <img class="rounded-circle" width="45" src="images/peiszisztratosz.png" alt="">
+                                </div>
+                                <div class="ml-2">
+                                    <div class="h5 m-0 text-blue">Peiszisztratosz (egyike a legjobbaknak)</div>
+                                    <div class="h7 text-muted">Földbirtokos</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dropdown">
+                                    <button class="btn btn-link dropdown-toggle" type="button" id="gedf-drop11" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-ellipsis-h"></i>
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="gedf-drop11">
+                                        <div class="h6 dropdown-header">Configuration</div>
+                                        <a class="dropdown-item" href="#">Save</a>
+                                        <a class="dropdown-item" href="#">Hide</a>
+                                        <a class="dropdown-item" href="#">Report</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i>52. Olümpiász</div>
+                        <a class="card-link" href="https://goo.gl/maps/QJBsz2o9cvnYQjMx7" target="_blank">
+                            <h5 class="card-title">Brauron</h5>
+                        </a>
+                        <p class="card-text">Öregapó édes a bor, mi? Itthon meg megy tovább a kavarás. Elég nehéz a helyzet és sok az ellenség. </p>
+                        <p class="card-text">
+                        </p>
+
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="card-link"><i class="fa fa-gittip"></i> Tetszik</a>
+                        <a href="#" class="card-link"><i class="fa fa-comment"></i> Hozzászólás</a>
+                        <a href="#" class="card-link"><i class="fa fa-mail-forward"></i> Megosztás</a>
+                    </div>
+                </div>
+
+                   <!--- \\\\\\\Post-->
+                   <div class="card social-timeline-card">
+                    <div class="card-header">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="mr-2">
+                                    <img class="rounded-circle" width="45" src="images/solon.jpg" alt="">
+                                </div>
+                                <div class="ml-2">
+                                    <div class="h5 m-0 text-blue">Szolón</div>
+                                    <div class="h7 text-muted">Exékesztidész fia, a Medontidák családjából
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dropdown">
+                                    <button class="btn btn-link dropdown-toggle" type="button" id="gedf-drop11" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-ellipsis-h"></i>
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="gedf-drop11">
+                                        <div class="h6 dropdown-header">Configuration</div>
+                                        <a class="dropdown-item" href="#">Save</a>
+                                        <a class="dropdown-item" href="#">Hide</a>
+                                        <a class="dropdown-item" href="#">Report</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i>52. Olümpiász</div>
+                        <a class="card-link" href="https://goo.gl/maps/QJBsz2o9cvnYQjMx7" target="_blank">
+                            <h5 class="card-title"></h5>
+                        </a>
+                        <p class="card-text">Amint hazalátogatok, szeretnélek felkeresni otthonodban, hogy egy-két félreértést tisztázzunk, illetve hogy az ellenségeskedést csillapítsam közted és valaki között, akit itt nem akarok megnevezni, nehogy letiltson. Egyeztessük az időpontokat. </p>
+                        <p class="card-text">
+                        </p>
+
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="card-link"><i class="fa fa-gittip"></i> Tetszik</a>
+                        <a href="#" class="card-link"><i class="fa fa-comment"></i> Hozzászólás</a>
+                        <a href="#" class="card-link"><i class="fa fa-mail-forward"></i> Megosztás</a>
+                    </div>
+                </div>
+
+                   <!--- \\\\\\\Post-->
+                   <div class="card social-timeline-card">
+                    <div class="card-header">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="mr-2">
+                                    <img class="rounded-circle" width="45" src="images/solon.jpg" alt="">
+                                </div>
+                                <div class="ml-2">
+                                    <div class="h5 m-0 text-blue">Szolón</div>
+                                    <div class="h7 text-muted">Exékesztidész fia, a Medontidák családjából
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dropdown">
+                                    <button class="btn btn-link dropdown-toggle" type="button" id="gedf-drop11" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-ellipsis-h"></i>
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="gedf-drop11">
+                                        <div class="h6 dropdown-header">Configuration</div>
+                                        <a class="dropdown-item" href="#">Save</a>
+                                        <a class="dropdown-item" href="#">Hide</a>
+                                        <a class="dropdown-item" href="#">Report</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i>52. Olümpiász</div>
+                        <a class="card-link" href="https://goo.gl/maps/SEkmwhkBjhYZ1t1W9" target="_blank">
+                            <h5 class="card-title">itt: Theszpisz "színháza"</h5>
+                        </a>
+                        <p class="card-text">Teljesen sokkolt ez az "előadás". Emberek BEÖLTÖZNEK és úgy csinálnak, mintha ők lennének a színdarab szereplői. Ez szégyen, össze-vissza hazudoznak a színpadon. Miért nem volt jó a hagyományos módszer, hogy valaki csak szépen elmesélte a történetet? Ki vagyok ezen akadva.
+                             </p>
+                        <img src="images/theatre.jpg" alt="" class="img-fluid"> 
+                        <p class="card-text">
+                        </p>
+                        <p class="card-text">Ha dicsérjük és tiszteljük a szerepjátszást, hamarosan ott tartunk majd a szerződésekkel is. Azokban is hazudozni fognak.
+                        </p>
+
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="card-link"><i class="fa fa-gittip"></i> Tetszik</a>
+                        <a href="#" class="card-link"><i class="fa fa-comment"></i> Hozzászólás</a>
+                        <a href="#" class="card-link"><i class="fa fa-mail-forward"></i> Megosztás</a>
+                    </div>
+                </div>
+
+                <!--- \\\\\\\Post-->
+                <div class="card social-timeline-card">
+                    <div class="card-header">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="mr-2">
+                                    <img class="rounded-circle" width="45" src="images/peiszisztratosz.png" alt="">
+                                </div>
+                                <div class="ml-2">
+                                    <div class="h5 m-0 text-blue">Peiszisztratosz (egyike a legjobbaknak)</div>
+                                    <div class="h7 text-muted">Földbirtokos</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dropdown">
+                                    <button class="btn btn-link dropdown-toggle" type="button" id="gedf-drop2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-ellipsis-h"></i>
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="gedf-drop2">
+                                        <div class="h6 dropdown-header">Configuration</div>
+                                        <a class="dropdown-item" href="#">Save</a>
+                                        <a class="dropdown-item" href="#">Hide</a>
+                                        <a class="dropdown-item" href="#">Report</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i> 55. Olümpiász</div>
+                        <a class="card-link" href="https://goo.gl/maps/mgiTiRSoRmo8Nb8t5" target="_blank">
+                            <h5 class="card-title">Kerameikosz temető</h5>
+                        </a>
+                        <p class="card-text">Peiszisztratosz 2 új fényképet töltött fel.</p>
+                        <img src="images/scar.jpg" alt="" class="img-fluid"> 
+                        <p class="card-text"></p>
+                        <img src="images/scar2.jpg" alt="" class="img-fluid">
+                        <p class="card-text"></p>
+                        <p class="card-text">
+                            Ezt így, fényes nappal... A temető mellett! Borzasztóan fájnak és véreznek, alig bírom elviselni.
+                            <a href="https://hu.wikipedia.org/wiki/Peiszisztratosz_ath%C3%A9ni_t%C3%BCrannosz#Az_els%C5%91_t%C3%BCranniszk%C3%ADs%C3%A9rlet" target="_blank"><br>MI TÖRTÉNT VALÓJÁBAN?</a>
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="card-link"><i class="fa fa-gittip"></i> Tetszik</a>
+                        <a href="#" class="card-link"><i class="fa fa-comment"></i> Hozzászólás</a>
+                        <a href="#" class="card-link"><i class="fa fa-mail-forward"></i> Megosztás</a>
+                    </div>
+                </div>
+                <!-- Post /////-->
+            
+
+                <!--- \\\\\\\Post-->
+                <div class="card social-timeline-card">
+                    <div class="card-header">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="mr-2">
+                                    <img class="rounded-circle" width="45" src="images/dexiosz.png" alt="">
+                                </div>
+                                <div class="ml-2">
+                                    <div class="h5 m-0 text-blue">Dexiosz</div>
+                                    <div class="h7 text-muted">Földműves
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dropdown">
+                                    <button class="btn btn-link dropdown-toggle" type="button" id="gedf-drop11" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-ellipsis-h"></i>
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="gedf-drop11">
+                                        <div class="h6 dropdown-header">Configuration</div>
+                                        <a class="dropdown-item" href="#">Save</a>
+                                        <a class="dropdown-item" href="#">Hide</a>
+                                        <a class="dropdown-item" href="#">Report</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i>55. Olümpiász</div>
+                        <a class="card-link" href="https://goo.gl/maps/QJBsz2o9cvnYQjMx7" target="_blank">
+                            <h5 class="card-title"></h5>
+                        </a>
+                        <p class="card-text">Mi történt? Valami fogathajtás-gyorsulási verseny volt Peireuszban megint az éjjel? </p>
+                        <p class="card-text">
+                        </p>
+
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="card-link"><i class="fa fa-gittip"></i> Tetszik</a>
+                        <a href="#" class="card-link"><i class="fa fa-comment"></i> Hozzászólás</a>
+                        <a href="#" class="card-link"><i class="fa fa-mail-forward"></i> Megosztás</a>
+                    </div>
+                </div>
+
+
+                <!--- \\\\\\\Post-->
+                <div class="card social-timeline-card">
+                    <div class="card-header">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="mr-2">
+                                    <img class="rounded-circle" width="45" src="images/peiszisztratosz.png" alt="">
+                                </div>
+                                <div class="ml-2">
+                                    <div class="h5 m-0 text-blue">Peiszisztratosz (egyike a legjobbaknak)</div>
+                                    <div class="h7 text-muted">Földbirtokos
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dropdown">
+                                    <button class="btn btn-link dropdown-toggle" type="button" id="gedf-drop11" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-ellipsis-h"></i>
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="gedf-drop11">
+                                        <div class="h6 dropdown-header">Configuration</div>
+                                        <a class="dropdown-item" href="#">Save</a>
+                                        <a class="dropdown-item" href="#">Hide</a>
+                                        <a class="dropdown-item" href="#">Report</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i>55. Olümpiász</div>
+                        <a class="card-link" href="https://goo.gl/maps/QJBsz2o9cvnYQjMx7" target="_blank">
+                            <h5 class="card-title"></h5>
+                        </a>
+                        <p class="card-text">Megtámadtak az utcán, nem éjjel, nappal. Többen, kés volt náluk. Valószínűleg <strong>Arisztokratosz</strong> emberei... </p>
+                        <p class="card-text">
+                        </p>
+
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="card-link"><i class="fa fa-gittip"></i> Tetszik</a>
+                        <a href="#" class="card-link"><i class="fa fa-comment"></i> Hozzászólás</a>
+                        <a href="#" class="card-link"><i class="fa fa-mail-forward"></i> Megosztás</a>
+                    </div>
+                </div>
+
+
+                <!--- \\\\\\\Post-->
+                <div class="card social-timeline-card">
+                    <div class="card-header">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="mr-2">
+                                    <img class="rounded-circle" width="45" src="images/dexiosz.png" alt="">
+                                </div>
+                                <div class="ml-2">
+                                    <div class="h5 m-0 text-blue">Dexiosz</div>
+                                    <div class="h7 text-muted">Földműves
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dropdown">
+                                    <button class="btn btn-link dropdown-toggle" type="button" id="gedf-drop11" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-ellipsis-h"></i>
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="gedf-drop11">
+                                        <div class="h6 dropdown-header">Configuration</div>
+                                        <a class="dropdown-item" href="#">Save</a>
+                                        <a class="dropdown-item" href="#">Hide</a>
+                                        <a class="dropdown-item" href="#">Report</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i>55. Olümpiász</div>
+                        <a class="card-link" href="https://goo.gl/maps/QJBsz2o9cvnYQjMx7" target="_blank">
+                            <h5 class="card-title"></h5>
+                        </a>
+                        <p class="card-text">Felháborító! Pont azt támadják, aki kiáll a népért. Pont azt bántják, aki bíróságon állna ki az egyszerű parasztokért, hogy megakadályozza a földjük elvesztését! </p>
+                        <p class="card-text">
+                        </p>
+
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="card-link"><i class="fa fa-gittip"></i> Tetszik</a>
+                        <a href="#" class="card-link"><i class="fa fa-comment"></i> Hozzászólás</a>
+                        <a href="#" class="card-link"><i class="fa fa-mail-forward"></i> Megosztás</a>
+                    </div>
+                </div>
+
+
+
+                 <!--- \\\\\\\Post-->
+                 <div class="card social-timeline-card">
+                    <div class="card-header">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="mr-2">
+                                    <img class="rounded-circle" width="45" src="images/solon.jpg" alt="">
+                                </div>
+                                <div class="ml-2">
+                                    <div class="h5 m-0 text-blue">Szolón</div>
+                                    <div class="h7 text-muted">Exékesztidész fia, a Medontidák családjából
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dropdown">
+                                    <button class="btn btn-link dropdown-toggle" type="button" id="gedf-drop11" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-ellipsis-h"></i>
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="gedf-drop11">
+                                        <div class="h6 dropdown-header">Configuration</div>
+                                        <a class="dropdown-item" href="#">Save</a>
+                                        <a class="dropdown-item" href="#">Hide</a>
+                                        <a class="dropdown-item" href="#">Report</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i>55. Olümpiász</div>
+                        <a class="card-link" href="https://goo.gl/maps/QJBsz2o9cvnYQjMx7" target="_blank">
+                            <h5 class="card-title"></h5>
+                        </a>
+                        <p class="card-text">Mindenitek szeme csak furfangos férfi beszédén s róka nyelvén függ; bennetek bizony balgatag elme lakik. </p>
+                        <p class="card-text">
+                        </p>
+
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="card-link"><i class="fa fa-gittip"></i> Tetszik</a>
+                        <a href="#" class="card-link"><i class="fa fa-comment"></i> Hozzászólás</a>
+                        <a href="#" class="card-link"><i class="fa fa-mail-forward"></i> Megosztás</a>
+                    </div>
+                </div>
+
+          
+                 <!--- \\\\\\\Post-->
+                 <div class="card social-timeline-card">
+                    <div class="card-header">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="mr-2">
+                                    <img class="rounded-circle" width="45" src="images/arisztokratosz.jpg" alt="">
+                                </div>
+                                <div class="ml-2">
+                                    <div class="h5 m-0 text-blue">Arisztokratosz</div>
+                                    <div class="h7 text-muted">kedvelte a hozzászólásodat
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dropdown">
+                                    <button class="btn btn-link dropdown-toggle" type="button" id="gedf-drop11" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-ellipsis-h"></i>
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="gedf-drop11">
+                                        <div class="h6 dropdown-header">Configuration</div>
+                                        <a class="dropdown-item" href="#">Save</a>
+                                        <a class="dropdown-item" href="#">Hide</a>
+                                        <a class="dropdown-item" href="#">Report</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i>Ebből még nagy baj lesz...</div>
+                        <img src="images/angry.png" alt="" class="img-fluid"> 
+                        
+
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="card-link"><i class="fa fa-gittip"></i> Tetszik</a>
+                        <a href="#" class="card-link"><i class="fa fa-comment"></i> Hozzászólás</a>
+                        <a href="#" class="card-link"><i class="fa fa-mail-forward"></i> Megosztás</a>
+                    </div>
+                </div>
+
+
+                 <!--- \\\\\\\Post-->
+                 <div class="card social-timeline-card">
+                    <div class="card-header">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="mr-2">
+                                    <img class="rounded-circle" width="45" src="images/szinisz.png" alt="">
+                                </div>
+                                <div class="ml-2">
+                                    <div class="h5 m-0 text-blue">Szinisz</div>
+                                    <div class="h7 text-muted">Földműves
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dropdown">
+                                    <button class="btn btn-link dropdown-toggle" type="button" id="gedf-drop11" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-ellipsis-h"></i>
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="gedf-drop11">
+                                        <div class="h6 dropdown-header">Configuration</div>
+                                        <a class="dropdown-item" href="#">Save</a>
+                                        <a class="dropdown-item" href="#">Hide</a>
+                                        <a class="dropdown-item" href="#">Report</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i>55. Olümpiász</div>
+                        <a class="card-link" href="https://goo.gl/maps/QJBsz2o9cvnYQjMx7" target="_blank">
+                            <h5 class="card-title"></h5>
+                        </a>
+                        <p class="card-text">Ezt már egyszer posztoltad öreg. Talán nem hiszed, hogy Peiszisztratoszt megtámadták?  Ez nem fake news... </p>
+                        <p class="card-text">
+                        </p>
+
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="card-link"><i class="fa fa-gittip"></i> Tetszik</a>
+                        <a href="#" class="card-link"><i class="fa fa-comment"></i> Hozzászólás</a>
+                        <a href="#" class="card-link"><i class="fa fa-mail-forward"></i> Megosztás</a>
+                    </div>
+                </div>
+
+                <!--- \\\\\\\Post-->
+                <div class="card social-timeline-card">
+                    <div class="card-header">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="mr-2">
+                                    <img class="rounded-circle" width="45" src="images/solon.jpg" alt="">
+                                </div>
+                                <div class="ml-2">
+                                    <div class="h5 m-0 text-blue">Szolón</div>
+                                    <div class="h7 text-muted">Exékesztidész fia, a Medontidák családjából
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dropdown">
+                                    <button class="btn btn-link dropdown-toggle" type="button" id="gedf-drop11" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-ellipsis-h"></i>
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="gedf-drop11">
+                                        <div class="h6 dropdown-header">Configuration</div>
+                                        <a class="dropdown-item" href="#">Save</a>
+                                        <a class="dropdown-item" href="#">Hide</a>
+                                        <a class="dropdown-item" href="#">Report</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i>55. Olümpiász</div>
+                        <a class="card-link" href="https://goo.gl/maps/QJBsz2o9cvnYQjMx7" target="_blank">
+                            <h5 class="card-title"></h5>
+                        </a>
+                        <p class="card-text">Peiszisztratosz, Hippokratész fia, nem jól játszod Homérosz Odüsszeuszának szerepét. Megsebesítetted önmagadat, hogy félrevezesd polgártársaidat, holott ő ellenségeivel szemben folyamodott ehhez a cselvetéshez. </p>
+                        <p class="card-text">
+                        </p>
+
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="card-link"><i class="fa fa-gittip"></i> Tetszik</a>
+                        <a href="#" class="card-link"><i class="fa fa-comment"></i> Hozzászólás</a>
+                        <a href="#" class="card-link"><i class="fa fa-mail-forward"></i> Megosztás</a>
+                    </div>
+                </div>
+
+
+                  <!--- \\\\\\\Post-->
+<div class="card social-timeline-card">
+    <div class="card-header">
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="mr-2">
+                    <img class="rounded-circle" width="45" src="images/peiszisztratosz.png" alt="">
+                </div>
+                <div class="ml-2">
+                    <div class="h5 m-0 text-blue">Peiszisztratosz (a  nép védelmezője)</div>
+                    <div class="h7 text-muted">Hippokratész fia</div>
+                </div>
+            </div>
+            <div>
+                <div class="dropdown">
+                    <button class="btn btn-link dropdown-toggle" type="button" id="gedf-drop1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-ellipsis-h"></i>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="gedf-drop1">
+                        <div class="h6 dropdown-header">Configuration</div>
+                        <a class="dropdown-item" href="#">Save</a>
+                        <a class="dropdown-item" href="#">Hide</a>
+                        <a class="dropdown-item" href="#">Report</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i>Peiszisztratosz megosztott egy hivatkozást.</div>
+        <a class="card-link" href="https://cdn.britannica.com/52/197852-050-3192E574/Peisistratus-copper-engraving-1832.jpg" target="_blank">
+            <h5 class="card-title"> Akropolisz, elnöki lakosztály</h5>
+        </a>
+        <p class="card-text">
+        </p>
+        <img src="images\kozlony4.png" alt="" class="img-fluid">
+        
+        
+        <div>
+            <span class="badge badge-primary">#főbíró</span>
+            <span class="badge badge-primary">#az igazság tudója</span>
+            <span class="badge badge-primary">#arkhón</span>
+            <span class="badge badge-primary">#földművesek védelmezője</span>
+            <span class="badge badge-primary">#határok biztosítója</span>
+            <span class="badge badge-primary">#alkotmány helyreállítója</span>
+        </div>
+        <br>
+        <p class="card-text"><strong>Egy adminisztrátor kikapcsolta a hozzászólásokat ennél a posztnál.</strong>
+        </p>
+    </div>
+    
+    <div class="card-footer">
+        <a href="#" class="card-link"><i class="fa fa-gittip"></i> Tetszik</a>
+        <a href="#" class="card-link"><i class="fa fa-comment"></i> Hozzászólás</a>
+        <a href="#" class="card-link"><i class="fa fa-mail-forward"></i> Megosztás</a>
+    </div>
+</div>
+
+
+                  <!--- \\\\\\\Post-->
+                <div class="card social-timeline-card">
+                    <div class="card-header">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="mr-2">
+                                    <img class="rounded-circle" width="45" src="images/solon.jpg" alt="">
+                                </div>
+                                <div class="ml-2">
+                                    <div class="h5 m-0 text-blue">Szolón</div>
+                                    <div class="h7 text-muted">Exékesztidész fia, a Medontidák családjából
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dropdown">
+                                    <button class="btn btn-link dropdown-toggle" type="button" id="gedf-drop2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-ellipsis-h"></i>
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="gedf-drop2">
+                                        <div class="h6 dropdown-header">Configuration</div>
+                                        <a class="dropdown-item" href="#">Save</a>
+                                        <a class="dropdown-item" href="#">Hide</a>
+                                        <a class="dropdown-item" href="#">Report</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i> 55. Olümpiász 2. éve</div>
+                        <a class="card-link" href="https://hu.wikipedia.org/wiki/Akropolisz_(Ath%C3%A9n)" target="_blank">
+                            <h5 class="card-title">Korábban könnyebb lett volna megakadályozni a készülő zsarnokságot, de nagyobb és dicsőbb feladat most végezni vele, amikor már erőre kapott!</h5>
+                        </a>
+                        <p class="card-text">
+                            "Hitványságotokért ebsorsot tűrve, haragvó<br>
+   istenek ellen ezért zokszavatok ne legyen!<br>
+Nagyra e zsarnokokat ti növeltétek bizony, óva<br>
+   bástya gyanánt; görnyeszt érte a rút rabiga."<br>
+                            <a href="#" target="_blank"></a>
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="card-link"><i class="fa fa-gittip"></i> Tetszik</a>
+                        <a href="#" class="card-link"><i class="fa fa-comment"></i> Hozzászólás</a>
+                        <a href="#" class="card-link"><i class="fa fa-mail-forward"></i> Megosztás</a>
+                    </div>
+                </div>
+                <!-- Post /////-->
+              
+              
+                  <!--- \\\\\\\Post-->
+                <div class="card social-timeline-card">
+                    <div class="card-header">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="mr-2">
+                                    <img class="rounded-circle" width="45" src="images/peiszisztratosz.png" alt="">
+                                </div>
+                                <div class="ml-2">
+                                    <div class="h5 m-0 text-blue">Peiszisztratosz</div>
+                                    <div class="h7 text-muted">Attika, a nép védelmezője</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dropdown">
+                                    <button class="btn btn-link dropdown-toggle" type="button" id="gedf-drop2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-ellipsis-h"></i>
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="gedf-drop2">
+                                        <div class="h6 dropdown-header">Configuration</div>
+                                        <a class="dropdown-item" href="#">Save</a>
+                                        <a class="dropdown-item" href="#">Hide</a>
+                                        <a class="dropdown-item" href="#">Report</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i> 55. Olümpiász</div>
+                        <a class="card-link" href="https://goo.gl/maps/doYEQEp69wrjnruX8" target="blank">
+                            <h5 class="card-title"> Peiraieusz, kikötő</h5>
+                        </a>
+                        <p class="card-text">
+                            Kíméld magad, öreg! Még valami bajod esik! Élvezd békés öregkorodat és ne foglalkozz a politikával!
+                            <a href="https://mega.nz/#!1J01nRIb!lMZ4B_DR2UWi9SRQK5TTzU1PmQpDtbZkMZjAIbv97hU" target="_blank">
+                            </a>
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="card-link"><i class="fa fa-gittip"></i> Tetszik</a>
+                        <a href="#" class="card-link"><i class="fa fa-comment"></i> Hozzászólás</a>
+                        <a href="#" class="card-link"><i class="fa fa-mail-forward"></i> Megosztás</a>
+                    </div>
+                </div>
+                <!-- Post /////-->
+              
+              
+               <!--- \\\\\\\Post-->
+               <div class="card social-timeline-card">
+                <div class="card-header">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="mr-2">
+                                <img class="rounded-circle" width="45" src="images/solon.jpg" alt="">
+                            </div>
+                            <div class="ml-2">
+                                <div class="h5 m-0 text-blue">Szolón</div>
+                                <div class="h7 text-muted">Exékesztidész fia, a Medontidák családjából
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="dropdown">
+                                <button class="btn btn-link dropdown-toggle" type="button" id="gedf-drop2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fa fa-ellipsis-h"></i>
+                                </button>
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="gedf-drop2">
+                                    <div class="h6 dropdown-header">Configuration</div>
+                                    <a class="dropdown-item" href="#">Save</a>
+                                    <a class="dropdown-item" href="#">Hide</a>
+                                    <a class="dropdown-item" href="#">Report</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i> 55. Olümpiász 2. éve</div>
+                    <a class="card-link" href="https://hu.wikipedia.org/wiki/Akropolisz_(Ath%C3%A9n)" target="_blank">
+                        <h5 class="card-title">
+                        </h5>
+                    </a>
+                    <p class="card-text">
+                        Lehet, hogy megírom Atlantisz igaz történetét. Bárha öregszem, még egyre sokat tanulok. Kedvelem én Küprisz s Dionüszosz műveit immár,
+                        s Múzsákéit; ezek földeritik szivemet. Mit tudok tenni? <strong>Peiszisztratosz</strong>, zsarnok vagy és az is maradsz, de annak örülök, hogy a törvényeim nagy részét érvényben hagytad. 
+                        <a href="#" target="_blank"></a>
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="card-link"><i class="fa fa-gittip"></i> Tetszik</a>
+                    <a href="#" class="card-link"><i class="fa fa-comment"></i> Hozzászólás</a>
+                    <a href="#" class="card-link"><i class="fa fa-mail-forward"></i> Megosztás</a>
+                </div>
+            </div>
+            <!-- Post /////-->
+              
+
+             <!--- \\\\\\\Post-->
+             <div class="card social-timeline-card">
+                <div class="card-header">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="mr-2">
+                                <img class="rounded-circle" width="45" src="images/peiszisztratosz.png" alt="">
+                            </div>
+                            <div class="ml-2">
+                                <div class="h5 m-0 text-blue">Peiszisztratosz</div>
+                                <div class="h7 text-muted">Attika ura, a nép védelmezője</div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="dropdown">
+                                <button class="btn btn-link dropdown-toggle" type="button" id="gedf-drop2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fa fa-ellipsis-h"></i>
+                                </button>
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="gedf-drop2">
+                                    <div class="h6 dropdown-header">Configuration</div>
+                                    <a class="dropdown-item" href="#">Save</a>
+                                    <a class="dropdown-item" href="#">Hide</a>
+                                    <a class="dropdown-item" href="#">Report</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i>új hivatkozást adott meg.</div>
+                    
+                    
+                    <img src="images/kozlony5.png" alt="" class="img-fluid">
+                    <p class="card-text">
+                        
+                
+                        <a href="https://mega.nz/#!1J01nRIb!lMZ4B_DR2UWi9SRQK5TTzU1PmQpDtbZkMZjAIbv97hU" target="_blank">
+                        </a>
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="card-link"><i class="fa fa-gittip"></i> Tetszik</a>
+                    <a href="#" class="card-link"><i class="fa fa-comment"></i> Hozzászólás</a>
+                    <a href="#" class="card-link"><i class="fa fa-mail-forward"></i> Megosztás</a>
+                </div>
+            </div>
+            <!-- Post /////-->
+              
+         
+            <!--- \\\\\\\Post-->
+            <div class="card social-timeline-card">
+                <div class="card-header">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="mr-2">
+                                <img class="rounded-circle" width="45" src="images/szinisz.png" alt="">
+                            </div>
+                            <div class="ml-2">
+                                <div class="h5 m-0 text-blue">Szinisz</div>
+                                <div class="h7 text-muted">Földműves
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="dropdown">
+                                <button class="btn btn-link dropdown-toggle" type="button" id="gedf-drop11" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fa fa-ellipsis-h"></i>
+                                </button>
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="gedf-drop11">
+                                    <div class="h6 dropdown-header">Configuration</div>
+                                    <a class="dropdown-item" href="#">Save</a>
+                                    <a class="dropdown-item" href="#">Hide</a>
+                                    <a class="dropdown-item" href="#">Report</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i>55. Olümpiász</div>
+                    <a class="card-link" href="https://goo.gl/maps/QJBsz2o9cvnYQjMx7" target="_blank">
+                        <h5 class="card-title"></h5>
+                    </a>
+                    <p class="card-text">Neki köszönhetem, hogy hazajöhettem a rabszolgasorsból. Neki köszönhetem, hogy vagyontalan létemre is részt vehettem az esküdtbíróságok munkájában. 
+                         </p>
+                         <img src="images/cry.png" alt="" class="img-fluid">
+                    <p class="card-text">
+                    </p>
+
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="card-link"><i class="fa fa-gittip"></i> Tetszik</a>
+                    <a href="#" class="card-link"><i class="fa fa-comment"></i> Hozzászólás</a>
+                    <a href="#" class="card-link"><i class="fa fa-mail-forward"></i> Megosztás</a>
+                </div>
+            </div>
+
+             <!--- \\\\\\\Post-->
+             <div class="card social-timeline-card">
+                <div class="card-header">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="mr-2">
+                                <img class="rounded-circle" width="45" src="images/aratosz.png" alt="">
+                            </div>
+                            <div class="ml-2">
+                                <div class="h5 m-0 text-blue">Aratosz</div>
+                                <div class="h7 text-muted">Földműves
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="dropdown">
+                                <button class="btn btn-link dropdown-toggle" type="button" id="gedf-drop11" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fa fa-ellipsis-h"></i>
+                                </button>
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="gedf-drop11">
+                                    <div class="h6 dropdown-header">Configuration</div>
+                                    <a class="dropdown-item" href="#">Save</a>
+                                    <a class="dropdown-item" href="#">Hide</a>
+                                    <a class="dropdown-item" href="#">Report</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="text-muted h7 mb-2"> <i class="fa fa-clock-o"></i>55. Olümpiász</div>
+                    <a class="card-link" href="https://goo.gl/maps/QJBsz2o9cvnYQjMx7" target="_blank">
+                        <h5 class="card-title"></h5>
+                    </a>
+                    <p class="card-text">Én még láttam őt pár napja a háza előtt. Már végleg visszavonult a politizálástól.
+                         
+                         </p>
+                         <img src="images/solon2.jpg" alt="" class="img-fluid">
+                    <p class="card-text">
+                    </p>
+
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="card-link"><i class="fa fa-gittip"></i> Tetszik</a>
+                    <a href="#" class="card-link"><i class="fa fa-comment"></i> Hozzászólás</a>
+                    <a href="#" class="card-link"><i class="fa fa-mail-forward"></i> Megosztás</a>
+                </div>
+            </div>
+
+
+          </div>
+            <div class="col-lg-3">
+                <div class="card social-timeline-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Emberek akiket ismerhetsz</h5>
+                        <ul class="friend-list">
+                            <li>
+                                <div class="left">
+                                    <img src="images/aratosz.png" alt="">
+                                </div>
+                                <div class="right">
+                                    <h3>Aratosz</h3>
+                                    <p>105 ismerős</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="left">
+                                    <img src="images/arisztokratosz.jpg" alt="">
+                                </div>
+                                <div class="right">
+                                    <h3>Arisztokratosz</h3>
+                                    <p>1167 ismerős</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="left">
+                                    <img src="images/dexiosz.png" alt="">
+                                </div>
+                                <div class="right">
+                                    <h3>Dexiosz</h3>
+                                    <p>72 ismerős</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="left">
+                                    <img src="images/harmiodorosz.png" alt="">
+                                </div>
+                                <div class="right">
+                                    <h3>Harmiodorosz</h3>
+                                    <p>230 ismerős</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="left">
+                                    <img src="images/peiszisztratosz.png" alt="">
+                                </div>
+                                <div class="right">
+                                    <h3>Peiszisztratosz</h3>
+                                    <p>9455 ismerős</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="left">
+                                    <img src="images/philombrotosz.jpg" alt="">
+                                </div>
+                                <div class="right">
+                                    <h3>Philombrotosz</h3>
+                                    <p>3826 ismerős</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="left">
+                                    <img src="images/szinisz.png" alt="">
+                                </div>
+                                <div class="right">
+                                    <h3>Szinisz</h3>
+                                    <p>781 ismerős</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="left">
+                                    <img src="images/thermidasz.jpg" alt="">
+                                </div>
+                                <div class="right">
+                                    <h3>Thermidasz</h3>
+                                    <p>1677 ismerős</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="left">
+                                    <img src="images/thespis.jpg" alt="">
+                                </div>
+                                <div class="right">
+                                    <h3>Theszpisz</h3>
+                                    <p>11563 ismerős</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+	
+</script>
+</body>
+</html>
